@@ -6,9 +6,12 @@ theme: {
   spacing:{"15":"4rem"},
   fontFamily:{'inter':"Inter"},
     colors: {
-       "ige":"#ffff00",
-      "tidak":"red"
+       "primary":"#ffff00",
+      "secondary":"red"
       },
+outlineWidth: {
+        3: '3px',
+      }
 },
   },
   plugins: [],

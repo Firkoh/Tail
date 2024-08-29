@@ -5,7 +5,7 @@
   "main": "index.js",
 "type": "module",
   "scripts": {
-    "tail":"npx tailwindcss -i src/css/style.css -o public/output.css --watch"
+    "tailwind":"npx tailwindcss -i src/css/style.css -o public/output.css --watch"
   },
   "author": "firkoh",
   "license": "ISC",
