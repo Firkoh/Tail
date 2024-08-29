@@ -11,7 +11,9 @@ theme: {
       },
 outlineWidth: {
         3: '3px',
-      }
+      },
+ringWidth:{3:"3px",
+}
 },
   },
   plugins: [],
