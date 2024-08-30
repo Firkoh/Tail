@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="output.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style type="text/tailwindcss">
+
+</style>
+</head>
+<body class="font-inter dark:bg-slate-700 dark:text-slate-600">
+<button class="dark:bg-blue-950 dark:hover:bg-blue-900 my-10 px-5 py-4 mx-auto block rounded-full  bg-sky-500 hover:bg-sky-600 active:bg-sky-700 text-white focus:bg-sky-950 ">TOMBOL</button>
+<button class="my-10 px-5 py-2 rounded-full bg-sky-500 hover:bg-sky-600 active:bg-sky-700 text-white block mx-auto focus:bg-sky-950 ">TOMBOL</button>
+<ul role="list" class="p-6 divide-y divide-slate-200">
+<br>
+  INI FIRST DAN LAST
+    <!-- Remove top/bottom padding when first/last child -->
+    <li class="flex py-4 first:pt-0 last:pb-0">
+      <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/profile-1445832407811-c04ed64d238b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=180&w=180&s=26099ca5069692aac6973d08ae02dd71" alt="" />
+      <div class="ml-3 overflow-hidden">
+        <p class="text-sm font-medium text-slate-900">{person.name}</p>
+        <p class="text-sm text-slate-500 truncate">{person.email}</p>
+      </div>
+    </li>
+  {/each}
+</ul>
+
+
+<a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500">
+  <div class="flex items-center space-x-3">
+    <svg class="h-6 w-6 stroke-sky-500 group-hover:text-white" fill="none" viewBox="0 0 24 24"></svg>
+    <h3 class="group-hover:text-white text-red-600 group-hover: text-xl  font-semibold">Group Class</h3>
+  </div>
+  <p class="text-slate-500 group-hover:text-white text-sm">Create a new project from a variety of starting templates.</p>
+</a>
+
+
+<div class="mb-4 max-2xl mx-4 my-auto border-dotted border-2 hover:border-solid border-red-700 hover:bg-indigo-500 shadow-indigo-500 rounded-xl px-5 shadow-xl group"><h5 class=" group-hover:text-white text-slate-900 font-semibold mt-3 mb-5 group-hover/{edit}:bgred ">Coba Pilih Text DI BAwah</h5><p class="cursor-copy select-all text-slate-600 group-hover:text-white mb-2 group/edit">Lorem ipsum Coba Pilih Text adipisicing elit. Ipsa et voluptas neque quaerat dolorem cupiditate. Nam doloribus maxime eum quidem vero porro, sequi tenetur aliquid nihil quaerat quos possimus minima.</p>
+
+<button class="mx-auto block px-2 mb-2 border-2 border-red-500 rounded-md hover:bg-red-500">Tombol</button>
+<button class="mx-auto block px-2 mb-2 border-2 border-red-500 rounded-md hover:bg-red-500 focus:outline-none focus-visible:ring ...">
+  Submit
+</button>
+</div>
+
+<div class="max-2xl mx-4 my-auto border-dotted border-2 hover:border-solid border-red-700 hover:bg-indigo-500 shadow-indigo-500 rounded-xl px-5 shadow-xl group">
+
+<fieldset>
+  <legend>Masukan Gender Anda</legend>
+
+  <input id="Pria" class="peer/Pria" type="radio" name="status" />
+  <label for="Pria" class="peer-checked/Pria:text-sky-500">Pria</label>
+
+
+  <input id="Wanita" class="peer/Wanita" type="radio" name="status" checked/>
+  <label for="Wanita" class=" peer-checked/Wanita:text-sky-500">Wanita</label>
+  
+
+  <div class="text-2xl hidden peer-checked/Pria:block">Kamu Pasti Ganteng</div>
+
+  <div class="text-2xl hidden peer-checked/Wanita:block">Kamu Pasti Cantik</div>
+</fieldset>
+</div>
+
+<div class="mt-4 mb-4 max-2xl mx-4 my-auto border-dotted border-2 hover:border-solid border-red-700 hover:bg-indigo-500 shadow-indigo-500 rounded-xl px-5 shadow-xl group">
+  <h2>Categories<h2>
+  <ul class="*:rounded-full *:border *:border-red-100 *:bg-red-50 *:px-2 *:py-0.5 dark:text-red-300 dark:*:border-red-500/15 dark:*:bg-red-500/10">
+    <li>Sales</li>
+    <li>Marketing</li>
+    <li>SEO</li>
+    <li>Acountant</li>
+<a href="https://seinfeldquotes.com" class="text-red
+-600 visited:text-yellow-600 ...">
+  Inspiration
+</a>
+  </ul>
+</div>
+
+<div class="mb-4 max-2xl mx-4 my-auto border-dotted border-2 hover:border-solid border-red-700 hover:bg-indigo-500 shadow-indigo-500 rounded-xl px-5 shadow-xl group"><h5 class=" group-hover:text-white text-slate-900 font-semibold mt-3 mb-5 group-hover/{edit}:bgred ">Coba Pilih Text DI BAwah</h5><p class=" text-slate-600 group-hover:text-white mb-2 group/edit selection:bg-red-600 selection:text-slate-900">Lorem ipsum Coba Pilih Text adipisicing elit. Ipsa et voluptas neque quaerat dolorem cupiditate. Nam doloribus maxime eum quidem vero porro, sequi tenetur aliquid nihil quaerat quos possimus minima.</p>
+
+<button class="mx-auto block px-2 mb-2 border-2 border-red-500 rounded-md hover:bg-red-500">Tombol</button>
+<button class="mx-auto block px-2 mb-2 border-2 border-red-500 rounded-md hover:bg-red-500 focus:outline-none focus-visible:ring ...">
+  Submit
+</button>
+</div>
+
+<div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-inter hover:bg-sky-500 group">
+<h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white">My Card</h5>
+<p class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos alias adipisci doloribus quis laboriosam excepturi, animi corrupti magni at saepe totam dolorem minus exercitationem iste quibusdam vitae mollitia ullam consectetur.</p>
+</div>
+
+<div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md hover:bg-sky-500 group">
+<h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white">My Card</h5>
+<p class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos alias adipisci doloribus quis laboriosam excepturi, animi corrupti magni at saepe totam dolorem minus exercitationem iste quibusdam vitae mollitia ullam consectetur.</p>
+</div>
+
+<div class="max-w-lg border ring ring-sky-500 rounded-2xl mx-auto shadow-md font-inter p-5">
+<form>
+  <label for="email" class="block font-semibold mb-1 text-slate-700 ">
+    <span class="block text-sm font-medium text-slate-700 ">Email</span>
+    <input placeholder="Masukan Email Kamu" type="email" id="email"  class="px-3 rounded-xl py-2 placeholder:text-sky-500 border-slate-600 shadow peer shadow-rounded border focus:ring-2 focus:outline-none focus:ring-sky-500"/>
+    <p class=" invisible peer-invalid:visible text-pink-600 text-sm ">
+      Tolong Masukan Alamat Email Yang benar
+    </p>
+  </label>
+</form>
+</div>
+
+<div class="mt-5 max-w-lg border ring ring-sky-500 rounded-2xl mx-auto shadow-md font-inter p-5">
+<form>
+  <label for="email" class="block font-semibold mb-1 text-slate-700 ">
+    <span class="block text-sm font-medium text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">Email</span>
+    <input placeholder="Masukan Email Kamu" type="email" id="email"  class="px-3 rounded-xl py-2 placeholder:text-sky-500 shadow peer shadow-rounded focus:ring-2 focus:outline-none focus:ring-sky-500 invalid:focus:ring-pink-600 hover:ring-sky-500"/>
+    <p class=" invisible peer-invalid:visible text-pink-600 text-sm ">
+      Tolong Masukan Alamat Email Yang benar
+    </p>
+  </label>
+</form>
+</div>
+
+<!-- Dark and Light Mode -->
+<div class="mt-4 flex justify-center">
+<span class="mr-2">light</span>
+<input type="checkbox" id="toggle" class="hidden">
+<label for="toggle">
+<div class="w-10 h-6 bg-slate-600 rounded-full flex items-center center p-0.5 cursor-pointer">
+<div class="toggle-circle w-5 h-5 bg-white rounded-full"></div>
+</div>
+</label>
+<span class="ml-2">dark</span>
+</div>
+<!-- sdsa -->
+
+<div class="mb-96"></div>
+<script>
+ const toggle = document.getElementById('toggle');
+  const html = document.querySelector("html");
+
+  toggle.addEventListener('click', function() {
+    if (toggle.checked) {
+      html.classList.add('dark');
+    } else {
+      html.classList.remove('dark');
+    }
+  });
+</script>
+</body>
+</html>
+<!-- <div class="max-w-xs min-h-screen">KOTAK 2</div> -->
