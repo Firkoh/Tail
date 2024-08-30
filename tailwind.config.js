@@ -9,11 +9,9 @@ theme: {
        "primary":"#ffff00",
       "secondary":"red"
       },
-outlineWidth: {
-        3: '3px',
-      },
-ringWidth:{3:"3px",
-}
+outlineWidth: {3: '3px',},
+ringWidth:{3:"3px",},
+margin:{30:"7.5rem",},
 },
   },
   plugins: [],
