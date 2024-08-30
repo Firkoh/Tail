@@ -47,8 +47,33 @@
   </label>
 </form>
 
-<div class="max-2xl mx-4 my-auto border-dotted border-2 hover:border-solid border-red-700 hover:bg-indigo-500 shadow-indigo-500 rounded-xl px-5 shadow-xl group"><h5 class=" group-hover:text-white text-slate-900 font-semibold mt-3 mb-5">MY Card</h5><p class="group/edit: text-slate-600 group-hover:text-white mb-2 group/edit">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa et voluptas neque quaerat dolorem cupiditate. Nam doloribus maxime eum quidem vero porro, sequi tenetur aliquid nihil quaerat quos possimus minima.</p>
-<button class="group-hover/edit:bg-red-400 mx-auto block px-2 mb-2 border-2 border-red-500 rounded-md">Tombol</button>
+
+<div class="mb-4 max-2xl mx-4 my-auto border-dotted border-2 hover:border-solid border-red-700 hover:bg-indigo-500 shadow-indigo-500 rounded-xl px-5 shadow-xl group"><h5 class=" group-hover:text-white text-slate-900 font-semibold mt-3 mb-5 group-hover/{edit}:bgred">MY Card</h5><p class=" text-slate-600 group-hover:text-white mb-2 group/edit">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa et voluptas neque quaerat dolorem cupiditate. Nam doloribus maxime eum quidem vero porro, sequi tenetur aliquid nihil quaerat quos possimus minima.</p>
+<button class="group-hover/{edit} mx-auto block px-2 mb-2 border-2 border-red-500 rounded-md hover:bg-red-500">Tombol</button>
+</div>
+
+<div class="max-2xl mx-4 my-auto border-dotted border-2 hover:border-solid border-red-700 hover:bg-indigo-500 shadow-indigo-500 rounded-xl px-5 shadow-xl group">
+
+<fieldset>
+  <legend>Masukan Gender Anda</legend>
+
+  <input id="Pria" class="peer/Pria" type="radio" name="status" checked />
+  <label for="Pria" class="peer-checked/Pria:text-sky-500">Pria</label>
+
+<input id="Waria" class="peer/Waria" type="radio" name="status" />
+  <label for="Waria" class="peer-checked/Waria:text-sky-500">Waria</label>
+
+  <input id="Wanita" class="peer/Wanita" type="radio" name="status" />
+  <label for="Wanita" class="peer-checked/Wanita:text-sky-500">Wanita</label>
+  
+
+
+  <div class="hidden peer-checked/Pria:block">Kamu Orang Yang Kekar Bro</div>
+  <div class="hidden peer-checked/Waria:block">
+  Kamu Pria Binggung</div>
+  <div class="hidden peer-checked/Wanita:block">Kamu Orang yang Lemah</div>
+</fieldset>
+
 </div>
 
 <div class="mb-96"></div>
