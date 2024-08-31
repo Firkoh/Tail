@@ -1,0 +1,8 @@
+/* ini tombol */
+.toggle-circle {
+  transition: transform 0.3s ease-in-out;
+}
+
+#toggle:checked + label .toggle-circle {
+  transform: translateX(1rem);
+}
