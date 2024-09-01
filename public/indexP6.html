@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="lain.css">
+<link rel="stylesheet" href="../src/css/mode.css">
 </head> 
 <body class="font-inter dark:bg-slate-900 dark:text-slate-600">
 <button class="dark:bg-blue-950 dark:hover:bg-blue-900 my-10 px-5 py-4 mx-auto block rounded-full  bg-sky-500 hover:bg-sky-600 active:bg-sky-700 text-white focus:bg-sky-950 ">TOMBOL</button>
@@ -132,17 +132,7 @@
 </div>
 
 <div class="mb-96"></div>
-<script>
-
- const toggle = document.getElementById('toggle');
-  const html = document.querySelector("html");
-
-  toggle.addEventListener('click', function()
- {
-
-    toggle.checked ? html.classList.add("dark"): html.classList.remove("dark");
-  });
-</script>
+<script src="../src/js/mode.js"></script>
 </body>
 </html>
 <!-- <div class="max-w-xs min-h-screen">KOTAK 2</div> -->
