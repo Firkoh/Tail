@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "tidak ada",
   "main": "index.js",
-"type": "module",
+  "type": "module",
   "scripts": {
-    "tailwind":"npx tailwindcss -i src/css/style.css -o public/output.css --watch"
+    "tailwind": "npx tailwindcss -i src/css/style.css -o public/output.css --watch"
   },
   "author": "firkoh",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
   }
 }
